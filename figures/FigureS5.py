@@ -111,10 +111,10 @@ for rr in np.arange(np.shape(regions)[0]):
     color   = ["#6B53A3","#7D4C9E","#723B7A","#3A00B0","#0000FF","#31449A","#033CAF","#A4DAD3",\
                "#005C50","#116B37","#08B30F","#24B24B","#FFDB58","#FFBF00","#FF8000","#FF7F24",\
                "#CD661D","#FF4000","#FF0000","#FA1B50","#F535A0","#99226D","#570024"]
-    ax[rr].scatter(ef_s2-ef_h,tmax_s2-tmax_h,color=color,s=50)
-    corr2 = pearsonr(ef_s2-ef_h,tmax_s2-tmax_h)
-    ax[rr].set_title('{}_{}'.format(regions[rr],corr2))
-    ax[rr].set_title('{}_{}'.format(regions[rr],round(corr2[0],2)))
-    ax[rr].set_title('{}_{}'.format(regions[rr],corr2[0]))
-    ax[rr].set_ylim(-3,7)
-plt.savefig(f'Figure6_{drght_indx}.pdf')
+    ax[rr].scatter(ef_s1-ef_h,tmax_s1-tmax_h,color=color,s=50)
+    corr1 = pearsonr(ef_s1-ef_h,tmax_s1-tmax_h)
+    ax[rr].set_title('{}_{}'.format(regions[rr],corr1))
+    ax[rr].set_title('{}_{}'.format(regions[rr],round(corr1[0],2)))
+    ax[rr].set_title('{}_{}'.format(regions[rr],corr1[0]))
+    ax[rr].set_ylim(-3,5)
+plt.savefig(f'FigureS5_{drght_indx}.pdf')
