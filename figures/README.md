@@ -7,5 +7,5 @@
 6. Run Figure4.py, Figure5.py and Figure6.py to generate Figures 4, 5 and 6 respectively.
 7. Run FigureS1_spatial_maps.ncl and FigureS1_heatmap.py for each of the drought indices to generate the spatial maps and heat maps for Figure S1.
 8. Run FigureS2.ncl for each of the drought indices to create Figure S2.
-9.  FigureS3.py and FigureS4.py to plot Figures S3 and Figures S4
+9.  FigureS3.py, FigureS4.py and FigureS5.py to plot Figures S3, S4 and S5.
 
