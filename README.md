@@ -8,7 +8,7 @@ Deeksha Rastogi<sup>1,*</sup>, Jared Trok<sup>2,4</sup>, Nicholas Depsky<sup>3</
 
 <sup>1 </sup>  Computational Sciences and Engineering Division, Oak Ridge National Laboratory, Oak Ridge, TN
 
-<sup>2 </sup> Stanford University, Stanford, CA
+<sup>2 </sup> Department of Earth System Science, Stanford University, Stanford, CA
 
 <sup>3 </sup> Energy and Resources Group, University of California, Berkeley, Berkeley, CA
 
