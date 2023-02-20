@@ -1,0 +1,46 @@
+* Each of the following variables will be a grid of positive integers the same size as the input netcdf file.
+
+* For the variables "drought_##_percentile", "D#", and "<intensity>_drought" are integer arrays where each distinct drought event is numbered chronologically for each grid cell.
+
+* SDI = Standardized Drought Index (i.e., SPI or SPEI)
+
+--------------------------------------------------------------------------------------------------
+Percentile Droughts:
+	drought_5th_percentile
+		def: (SDI < -1.645)
+			logical array with 1 if the grid cell is currently experiencing a "5th percentile anomaly".
+	drought_2nd_percentile
+		def: (SDI < -2.054)
+			logical array with 1 if the grid cell is currently experiencing a "2nd percentile anomaly".
+
+   * Nonzero values indicate the presence of a ## percentile drought occuring at that particular grid cell and time 
+   * Droughts events at each grid cell are numbered chronologically
+--------------------------------------------------------------------------------------------------
+Drought Intensities:
+	extreme_drought
+		def: period of SDI in 5th percentile with at least 1 month in 2nd percentile       
+			logical array with 1 if the grid cell is currently experiencing an "extreme drought".
+
+   * Nonzero values indicate the presence of a <intensity> drought occuring at that particular grid cell and time 
+   * Drought events at each grid cell are numbered chronologically
+--------------------------------------------------------------------------------------------------
+Drought Duration:
+	drought_duration_extreme
+		def: length (in months) of the current drought event occurring at each grid cell. 
+			uses extreme_drought to identify a drought event.
+			integer array.
+
+   * If an N-month drought event is occuring at a particular grid cell and time, this variable will contain N for every month in that event
+--------------------------------------------------------------------------------------------------
+Prolonged Droughts:
+	prolonged_drought_extreme
+		def: extreme_drought for 24+ months.
+			contains a 1 if the grid cell is currently involved in a 24+ month extreme drought.
+
+--------------------------------------------------------------------------------------------------
+Average Drought Intensity:
+	average_intensity_extreme
+		def: avg SDI for entire drought period.
+			numeric array containing the average SDI of the current drought event occurring at each grid cell.
+
+--------------------------------------------------------------------------------------------------
