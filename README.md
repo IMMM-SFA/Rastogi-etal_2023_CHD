@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/)](https://doi.org/zenodo)
 
-# Rastogi-etal\_2023\_tbd
+# Rastogi-etal\_2023\_EF
 
 **Historical evaluation and future projections of concurrent heatwave and drought extremes over the conterminous United States in CMIP6**
 
