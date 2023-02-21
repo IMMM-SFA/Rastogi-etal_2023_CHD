@@ -16,13 +16,13 @@ calculate_heatwave_days.ncl
 Parameter-elevation Relationships on Independent Slopes Model (PRISM):
         - Dataset: PRISM monthly averaged variables from 1981-2020
         - Variables: 2-meter temperature and total precipitation
-        - Download: Via the website https://prism.oregonstate.edu/recent/. Details in the PRISM_download.py script in PRISM_analysis/ directory.
-
+        - Download: Via the website https://prism.oregonstate.edu/recent/ 
+	
 ECMWF Reanalysis v5 - Land (ERA5-LAND):
         - Dataset: ERA5-LAND dailly averaged variables from 1981-2020
         - Variables: 2-meter temperature
 	- Processing: Download hourly values and process to generate daily averages
-        - Download: Via the Copernicus Climate Change Service (C3S) API. Details in the ERA5_download.py script in ERA5_analysis/ directory.
+        - Download: Via the Copernicus Climate Change Service (C3S) API 
 
 Coupled Model Intercomparison Project v6 (CMIP6) Historical and SSP585(future) Data:
         - Dataset: Monthly averaged model output from 1981-2014 and 2015-2100. See paper for list of models used in this analysis.
