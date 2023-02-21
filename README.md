@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/)](https://doi.org/zenodo)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7662363.svg)](https://doi.org/10.5281/zenodo.7662363)
 
 # Rastogi-etal\_2023\_EF
 
