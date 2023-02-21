@@ -1,4 +1,4 @@
-This directory contains supporting code for ??????, Rastogi, et al. (2023).
+This directory contains supporting code for analysis presented in Rastogi et al.,2023.
 
 This current directory contains code necessary to calculate drought events using the Standardized Precipitation Index (SPI) and Standardized Precipitation-Evapotranspiration Index (SPEI) for each PRISM, CMIP6, and ERA5 data. See manuscript for additional details.
 

@@ -1,4 +1,4 @@
-This directory contains supporting code used in calculating extremes for Rastogi, et al. (2023).
+This directory contains supporting code for analysis presented in Rastogi et al.,2023.
 
 This current directory contains code necessary to identify heatwave days for each CMIP6, PRISM and ERA5 data. See manuscript for additional details.
 
