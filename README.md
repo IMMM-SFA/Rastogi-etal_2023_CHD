@@ -27,25 +27,25 @@ Individually, both droughts and heatwaves can have severe impacts on human and n
 ## Reproduce my experiment
 
 1. Follow the steps outlined in workflow under heatwave analysis and drought analysis to identify heatwave and drought in CMIP6, PRISM and ERA5
-1. Follow the steps in Figures to generate the plots
+2. Follow the steps in Figures to generate the plots
 
 ## Datasets
 
 Parameter-elevation Relationships on Independent Slopes Model (PRISM):
-<sup>1 </sup> Dataset: PRISM monthly averaged variables from 1981-2020
-<sup>2 </sup> Variables: 2-meter temperature and total precipitation
-<sup>3 </sup> Download: Via the website https://prism.oregonstate.edu/recent/. Details in the PRISM_download.py script in PRISM_analysis/ directory.
+1. Dataset: PRISM monthly averaged variables from 1981-2020
+2. Variables: 2-meter temperature and total precipitation
+3. Download: Via the website https://prism.oregonstate.edu/recent/. Details in the PRISM_download.py script in PRISM_analysis/ directory.
 
 ECMWF Reanalysis v5 - Land (ERA5-LAND):
-<sup>1 </sup> Dataset: ERA5-LAND daily and monthly averaged variables from 1981-2020
-<sup>2 </sup> Variables: 2-meter temperature and total precipitation
-<sup>3 </sup> Processing: Download hourly data and process to generate daily and monthly averages
-<sup>4 </sup>  Download: Via the Copernicus Climate Change Service (C3S) API. Details in the ERA5_download.py script in ERA5_analysis/ directory.
+1. Dataset: ERA5-LAND daily and monthly averaged variables from 1981-2020
+2. Variables: 2-meter temperature and total precipitation
+3. Processing: Download hourly data and process to generate daily and monthly averages
+4. Download: Via the Copernicus Climate Change Service (C3S) API. Details in the ERA5_download.py script in ERA5_analysis/ directory.
 
 Coupled Model Intercomparison Project v6 (CMIP6) Historical and SSP585(future) Data:
-<sup>1 </sup> Dataset: Daily and monthly averaged model output from 1981-2014 and 2015-2100. See paper for list of models used in this analysis.
-<sup>2 </sup> Variables: 2-meter temperature and total precipitation
-<sup>3 </sup>  Download: Via World Climate Research Programme (WCRP) https://esgf-node.llnl.gov/search/cmip6/
+1. Dataset: Daily and monthly averaged model output from 1981-2014 and 2015-2100. See paper for list of models used in this analysis.
+2. Variables: 2-meter temperature and total precipitation
+3. Download: Via World Climate Research Programme (WCRP) https://esgf-node.llnl.gov/search/cmip6/
 
 
 
