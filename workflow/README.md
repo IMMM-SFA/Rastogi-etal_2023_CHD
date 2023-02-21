@@ -1,1 +1,1 @@
-## This is the directory to place scripts or instructions in for recreating your experiment 
+## TThis directory contains supporting code for analysis presented in Rastogi et al.,2023.
