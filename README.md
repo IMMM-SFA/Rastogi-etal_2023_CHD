@@ -20,6 +20,10 @@ Deeksha Rastogi<sup>1,*</sup>, Jared Trok<sup>2,4</sup>, Nicholas Depsky<sup>3</
 
 \* corresponding author: Deeksha Rastogi (rastogid@ornl.gov)
 
+# Abstract
+Individually, both droughts and heatwaves can have severe impacts on human and natural systems. But when these two climate extremes occur concurrently in a given region, their compound impacts are often more pronounced. As global climate models (GCMs) improve in both their spatiotemporal resolution and representation of complex climate processes, they are increasingly used to study future changes in these extremes and associated regional impacts. However, GCM selection for such impact assessments is generally based on historical performance and/or future mean changes, without considering individual or compound extremes. In contrast, this study evaluates historical performance and projected changes in heatwaves, droughts, and compound heatwave-droughts using an ensemble of CMIP6 GCMs across the conterminous United States (CONUS). We also investigate inter-model differences in the projected changes that are associated with various characteristics of extremes and the choice of drought indices. The largest changes in the frequency of compound extremes are projected over Southwest, South Central and parts of Southeast while the smallest changes are projected over the Northeast. We find substantial differences in these projected changes based on the choice of drought indices as well as large variability among the GCMs. This study provides important insights for the interpretation and use  of GCMs for future assessment studies that is crucial for the development of regional adaptation strategies in the face of climate change.
+
+
 ## Reproduce my experiment
 
 1. Follow the steps outlined in workflow under heatwave analysis and drought analysis to identify heatwave and drought in CMIP6, PRISM and ERA5
