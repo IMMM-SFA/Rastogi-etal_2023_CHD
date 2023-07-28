@@ -16,7 +16,7 @@ drght_ints = "extreme"
 drght_dur  = "06"
 
 #Run for SPI and SPEI
-drght_indx = "spei"
+drght_indx = "spi"
 
 dir        = './data/'
 year       = np.arange(1981,2101,1)
